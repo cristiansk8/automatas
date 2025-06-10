@@ -1,0 +1,47 @@
+{
+  "tagline": "Automate what matters — don’t be a bot.",
+  "hero": {
+    "title1": "Do more, without being a bot.",
+    "title2": "Smart automation that feels human",
+    "description": "Streamline repetitive tasks and focus on what truly matters: connecting with people and growing your business.",
+    "btnJoin": "Request a demo",
+    "btnExplore": "View solutions"
+  },
+  "featuresTitle": "Why automate with us?",
+  "features": [
+    {
+      "title": "Smart automation",
+      "description": "Set up workflows that run 24/7—efficient, reliable, and always human-centered."
+    },
+    {
+      "title": "Natural conversations",
+      "description": "Virtual agents that actually sound like real people, not scripts."
+    },
+    {
+      "title": "Seamless integration",
+      "description": "Connect to your channels, CRM, and tools with no tech headache."
+    }
+  ],
+  "slogan": {
+    "line1": "Don't be a bot.",
+    "line2": "Automate with a human touch.",
+    "description": "In a world full of robotic replies, being human is your superpower—even with automation."
+  },
+  "cta": {
+    "title": "Ready to upgrade your customer experience?",
+    "description": "Start automating with tech that listens, understands, and delivers real value.",
+    "btnStart": "Get started"
+  },
+  "footer": {
+    "rights": "© All rights reserved.",
+    "slogan": "Don't be a bot | Automate with intelligence | Stay human",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "nav": {
+    "features": "Features",
+    "about": "About us",
+    "contact": "Contact"
+  }
+}
