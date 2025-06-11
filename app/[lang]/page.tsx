@@ -1,5 +1,3 @@
-'use client'; // Muy importante para habilitar eventos y estados
-
 import es from '../locales/es/translation.json';
 import en from '../locales/en/translation.json';
 
