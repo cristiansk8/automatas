@@ -9,7 +9,7 @@ interface PageProps {
 
 const translations = { es, en };
 
-export default function LandingPage({ params }: PageProps) {
+export default async function LandingPage({ params }: PageProps) {
   const lang = params.lang === 'en' || params.lang === 'es' ? params.lang : 'es';
   const t = translations[lang];
 
