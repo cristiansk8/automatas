@@ -1,0 +1,47 @@
+{
+  "tagline": "Automatize o que você precisa, não seja um robô.",
+  "hero": {
+    "title1": "Faça mais, sem ser um robô.",
+    "title2": "Automatize com propósito",
+    "description": "Otimize tarefas repetitivas para focar no que realmente importa: conectar-se com pessoas e fazer seu negócio crescer.",
+    "btnJoin": "Solicitar demonstração",
+    "btnExplore": "Ver soluções"
+  },
+  "featuresTitle": "Por que automatizar conosco?",
+  "features": [
+    {
+      "title": "Automação inteligente",
+      "description": "Implemente fluxos que trabalham para você 24/7, sem perder o toque humano."
+    },
+    {
+      "title": "Respostas naturais",
+      "description": "Assistentes virtuais que entendem e conversam como pessoas reais."
+    },
+    {
+      "title": "Integração total",
+      "description": "Conecte-se com seus canais, CRM e ferramentas favoritas sem complicações."
+    }
+  ],
+  "slogan": {
+    "line1": "Não seja um robô.",
+    "line2": "Automatize sem perder sua essência.",
+    "description": "Em um mundo saturado de respostas genéricas, destacar-se começa por ser mais humano... mesmo automatizando."
+  },
+  "cta": {
+    "title": "Pronto para transformar seu atendimento?",
+    "description": "Comece a automatizar com tecnologia que entende, conecta e resolve.",
+    "btnStart": "Quero começar"
+  },
+  "footer": {
+    "rights": "© Todos os direitos reservados.",
+    "slogan": "Não seja um robô | Automatize com inteligência | Seja mais humano",
+    "terms": "Termos",
+    "privacy": "Privacidade",
+    "contact": "Contato"
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "about": "Sobre nós",
+    "contact": "Contato"
+  }
+}
