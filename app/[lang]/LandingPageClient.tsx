@@ -3,6 +3,7 @@
 // 1. Importa useState
 import React, { useState } from 'react';
 import Image from 'next/image';
+import LeadForm from '../src/components/LeadForm';
 
 // ... (Las interfaces Translation y Props no cambian)
 interface Translation {
@@ -50,7 +51,7 @@ export default function LandingPageClient({ t, lang }: Props) {
             priority
           />
         </div>
-        
+
         {/* Navegación para Escritorio (sin cambios) */}
         <nav className="hidden md:block">
           <ul className="flex space-x-8 text-neutral-300 font-medium text-xl">
@@ -121,91 +122,91 @@ export default function LandingPageClient({ t, lang }: Props) {
       {/* Hero */}
       <section className="relative px-6 md:px-12 py-32 text-center bg-black overflow-hidden">
 
-      {/* 1. Video de Fondo */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute z-0 w-full h-full top-0 left-0 object-cover"
-      >
-        <source src="/video.mp4" type="video/mp4" />
-        Tu navegador no soporta la etiqueta de video.
-      </video>
+        {/* 1. Video de Fondo */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute z-0 w-full h-full top-0 left-0 object-cover"
+        >
+          <source src="/video.mp4" type="video/mp4" />
+          Tu navegador no soporta la etiqueta de video.
+        </video>
 
-      {/* 2. Capa de superposición (Overlay) */}
-      {/* Esta capa oscurece un poco el video para que el texto sea legible. */}
-      <div className="absolute inset-0 bg-black/60 z-10" />
+        {/* 2. Capa de superposición (Overlay) */}
+        {/* Esta capa oscurece un poco el video para que el texto sea legible. */}
+        <div className="absolute inset-0 bg-black/60 z-10" />
 
-      {/* 3. Contenido del Hero (tu código original) */}
-      {/* Le cambiamos el z-index a z-20 para que esté por encima de todo */}
-      <div className="relative z-20">
-        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
-          <span className="block bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">{t.hero.title1}</span>
-          <span className="block text-white">{t.hero.title2}</span>
-        </h1>
-        <p className="mt-6 max-w-2xl mx-auto text-lg text-neutral-300">{t.hero.description}</p>
-        <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#contact"
-            className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition text-white"
-          >
-            {t.hero.btnJoin}
-          </a>
-          <a
-            href="#features"
-            className="border border-neutral-600 px-6 py-3 rounded-lg text-white hover:bg-neutral-800 transition"
-          >
-            {t.hero.btnExplore}
-          </a>
-        </div>
-      </div>
-    </section>
-
-    {/* Features */}
-    <section id="features" className="px-6 md:px-12 py-24 bg-neutral-950">
-      <h2 className="text-3xl font-bold text-center mb-12 text-white">{t.featuresTitle}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {t.features.map((feature, i) => (
-          <div key={i} className="bg-neutral-900 p-6 rounded-xl shadow-md border border-neutral-800">
-            <h3 className="text-xl font-semibold mb-2 text-white">{feature.title}</h3>
-            <p className="text-sm text-neutral-400">{feature.description}</p>
+        {/* 3. Contenido del Hero (tu código original) */}
+        {/* Le cambiamos el z-index a z-20 para que esté por encima de todo */}
+        <div className="relative z-20">
+          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
+            <span className="block bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">{t.hero.title1}</span>
+            <span className="block text-white">{t.hero.title2}</span>
+          </h1>
+          <p className="mt-6 max-w-2xl mx-auto text-lg text-neutral-300">{t.hero.description}</p>
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="#contact"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition text-white"
+            >
+              {t.hero.btnJoin}
+            </a>
+            <a
+              href="#features"
+              className="border border-neutral-600 px-6 py-3 rounded-lg text-white hover:bg-neutral-800 transition"
+            >
+              {t.hero.btnExplore}
+            </a>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      </section>
 
-    {/* Slogan */}
-    <section id="about" className="px-6 md:px-12 py-24 text-center bg-black">
-      <h2 className="text-3xl font-bold mb-4">
-        <span className="text-white">{t.slogan.line1} </span>
-        <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">{t.slogan.line2}</span>
-      </h2>
-      <p className="max-w-xl mx-auto text-neutral-300">{t.slogan.description}</p>
-    </section>
+      {/* Features */}
+      <section id="features" className="px-6 md:px-12 py-24 bg-neutral-950">
+        <h2 className="text-3xl font-bold text-center mb-12 text-white">{t.featuresTitle}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {t.features.map((feature, i) => (
+            <div key={i} className="bg-neutral-900 p-6 rounded-xl shadow-md border border-neutral-800">
+              <h3 className="text-xl font-semibold mb-2 text-white">{feature.title}</h3>
+              <p className="text-sm text-neutral-400">{feature.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-    {/* Call to Action */}
-    <section className="px-6 md:px-12 py-24 bg-gradient-to-tr from-neutral-900 to-black text-white text-center rounded-t-3xl">
-      <h2 className="text-3xl font-bold mb-4">{t.cta.title}</h2>
-      <p className="mb-6 max-w-xl mx-auto text-neutral-400">{t.cta.description}</p>
-      <a
-        href="#contact"
-        className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition inline-block"
-      >
-        {t.cta.btnStart}
-      </a>
-    </section>
+      {/* Slogan */}
+      <section id="about" className="px-6 md:px-12 py-24 text-center bg-black">
+        <h2 className="text-3xl font-bold mb-4">
+          <span className="text-white">{t.slogan.line1} </span>
+          <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">{t.slogan.line2}</span>
+        </h2>
+        <p className="max-w-xl mx-auto text-neutral-300">{t.slogan.description}</p>
+      </section>
 
-    {/* Footer */}
-    <footer id="contact" className="px-6 md:px-12 py-10 text-center border-t border-neutral-800 text-neutral-500 text-sm bg-black">
-      <p>© {new Date().getFullYear()} Ta. {t.footer.rights}</p>
-      <p className="mt-1">{t.footer.slogan}</p>
-      <div className="flex justify-center gap-6 mt-4">
-        <a href="#terms" className="hover:underline">{t.footer.terms}</a>
-        <a href="#privacy" className="hover:underline">{t.footer.privacy}</a>
-        <a href="#contact" className="hover:underline">{t.footer.contact}</a>
-      </div>
-    </footer>
+      {/* Call to Action */}
+      <section className="px-6 md:px-12 py-24 bg-gradient-to-tr from-neutral-900 to-black text-white text-center rounded-t-3xl">
+        <h2 className="text-3xl font-bold mb-4">{t.cta.title}</h2>
+        <p className="mb-6 max-w-xl mx-auto text-neutral-400">{t.cta.description}</p>
+        <a
+          href="#contact"
+          className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition inline-block"
+        >
+          {t.cta.btnStart}
+        </a>
+      </section>
+      <LeadForm />
+      {/* Footer */}
+      <footer id="contact" className="px-6 md:px-12 py-10 text-center border-t border-neutral-800 text-neutral-500 text-sm bg-black">
+        <p>© {new Date().getFullYear()} Ta. {t.footer.rights}</p>
+        <p className="mt-1">{t.footer.slogan}</p>
+        <div className="flex justify-center gap-6 mt-4">
+          <a href="#terms" className="hover:underline">{t.footer.terms}</a>
+          <a href="#privacy" className="hover:underline">{t.footer.privacy}</a>
+          <a href="#contact" className="hover:underline">{t.footer.contact}</a>
+        </div>
+      </footer>
     </div>
   );
 }

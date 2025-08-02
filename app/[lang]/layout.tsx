@@ -3,13 +3,16 @@
 import React from 'react';
 
 // Este es un Server Component, no lleva 'use client'
-export default function LangLayout({
+export default async function LangLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }) {
+  // Await the params since they are now a Promise
+  const { lang } = await params;
+  
   return (
     // La etiqueta <html> y <body> deben estar en el layout raíz,
     // así que este layout solo devuelve los children.

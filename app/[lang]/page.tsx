@@ -5,16 +5,19 @@ import pt from '../locales/pt/translation.json'; // Correctamente importado
 import LandingPageClient from './LandingPageClient';
 
 interface PageProps {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }
 
 // 1. Se añade 'pt' al objeto de traducciones
 const translations = { es, en, pt };
 
 export default async function LandingPage({ params }: PageProps) {
+  // Await the params since they are now a Promise
+  const { lang: langParam } = await params;
+  
   // 2. Se añade 'pt' a la lógica de validación del idioma
-  const lang = params.lang === 'en' || params.lang === 'es' || params.lang === 'pt' 
-    ? params.lang 
+  const lang = langParam === 'en' || langParam === 'es' || langParam === 'pt' 
+    ? langParam 
     : 'es'; // Se mantiene 'es' como idioma por defecto
 
   const t = translations[lang];
