@@ -43,5 +43,18 @@
     "features": "Funciones",
     "about": "Nosotros",
     "contact": "Contacto"
+  },
+  "productCreator": {
+    "title": "Crea productos increíbles con solo un prompt y una imagen",
+    "description": "Transforma tus ideas en fichas de producto completas en segundos. Impulsa tu ecommerce y haz que tus productos se destaquen con descripciones claras y atractivas.",
+    "btnCreate": "Crear producto",
+    "features": {
+      "seo": "Mejora tu SEO con descripciones optimizadas",
+      "standardize": "Estandariza tu catálogo de productos fácilmente",
+      "sync": "Sincroniza tu catálogo con un solo clic",
+      "speed": "Crea productos en segundos, no en horas",
+      "consistency": "Mantén títulos y detalles consistentes en toda tu tienda",
+      "scalability": "Escala tu eCommerce sin esfuerzo adicional"
+    }
   }
 }

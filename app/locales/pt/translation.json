@@ -43,5 +43,18 @@
     "features": "Funcionalidades",
     "about": "Sobre nos",
     "contact": "Contate-nos"
+  },
+  "productCreator": {
+    "title": "Crie produtos instantaneamente a partir de um prompt e uma imagem",
+    "description": "Economize tempo e potencialize sua loja gerando listagens completas de produtos com apenas um pequeno prompt e uma imagem. Perfeito para escalar seu eCommerce sem esforço.",
+    "btnCreate": "Crear producto",
+    "features": {
+      "seo": "Melhore seu SEO com descrições otimizadas",
+      "standardize": "Padronize facilmente o catálogo de produtos",
+      "speed": "Crie produtos em segundos, não em horas",
+      "sync": "Sincronize seu catálogo com um clique",
+      "consistency": "Mantenha títulos e detalhes consistentes em toda a loja",
+      "scalability": "Escalone seu eCommerce sem esforço extra"
+    }
   }
 }

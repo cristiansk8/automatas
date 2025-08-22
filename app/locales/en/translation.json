@@ -43,5 +43,18 @@
     "features": "Features",
     "about": "About us",
     "contact": "Contact us"
+  },
+  "productCreator": {
+    "title": "Create products instantly from a prompt and an image",
+    "description": "Save time and boost your store by generating complete product listings with just a short prompt and an image. Perfect for scaling your eCommerce effortlessly.",
+    "btnCreate": "Crear producto",
+    "features": {
+      "seo": "Improve your SEO with optimized descriptions",
+      "standardize": "Standardize your product catalog easily",
+      "sync": "Sync your catalog with one click",
+      "speed": "Create products in seconds, not hours",
+      "consistency": "Maintain consistent titles and details across your store",
+      "scalability": "Scale your eCommerce without extra effort"
+    }
   }
 }
