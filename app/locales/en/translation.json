@@ -1,40 +1,40 @@
 {
-  "tagline": "Automate what matters — don’t be a bot.",
+  "tagline": "Automate what you need, don't be a bot.",
   "hero": {
     "title1": "Do more, without being a bot.",
-    "title2": "Smart automation that feels human",
-    "description": "Streamline repetitive tasks and focus on what truly matters: connecting with people and growing your business.",
-    "btnJoin": "Request a demo",
-    "btnExplore": "View solutions"
+    "title2": "Automate your e-commerce",
+    "description": "Optimize repetitive tasks to focus on what really matters: connecting with people and growing your business.",
+    "btnJoin": "Request demo",
+    "btnExplore": "See solutions"
   },
   "featuresTitle": "Why automate with us?",
   "features": [
     {
       "title": "Smart automation",
-      "description": "Set up workflows that run 24/7—efficient, reliable, and always human-centered."
+      "description": "Set up flows that work for you 24/7, without losing the human touch."
     },
     {
-      "title": "Natural conversations",
-      "description": "Virtual agents that actually sound like real people, not scripts."
+      "title": "Natural responses",
+      "description": "Virtual assistants that understand and converse like real people."
     },
     {
-      "title": "Seamless integration",
-      "description": "Connect to your channels, CRM, and tools with no tech headache."
+      "title": "Total integration",
+      "description": "Connect with your channels, CRM, and favorite tools easily."
     }
   ],
   "slogan": {
     "line1": "Don't be a bot.",
-    "line2": "Automate with a human touch.",
-    "description": "In a world full of robotic replies, being human is your superpower—even with automation."
+    "line2": "Automate without losing your essence.",
+    "description": "In a world saturated with generic answers, standing out starts with being more human… even when automating."
   },
   "cta": {
-    "title": "Ready to upgrade your customer experience?",
-    "description": "Start automating with tech that listens, understands, and delivers real value.",
+    "title": "Ready to transform your customer service?",
+    "description": "Start automating with technology that understands, connects, and solves.",
     "btnStart": "Get started"
   },
   "footer": {
     "rights": "© All rights reserved.",
-    "slogan": "Don't be a bot | Automate with intelligence | Stay human",
+    "slogan": "Don't be a bot | Automate smart | Be more human",
     "terms": "Terms",
     "privacy": "Privacy",
     "contact": "Contact"
@@ -42,6 +42,6 @@
   "nav": {
     "features": "Features",
     "about": "About us",
-    "contact": "Contact"
+    "contact": "Contact us"
   }
 }

@@ -4,6 +4,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import LeadForm from '../src/components/LeadForm';
+import EcommerceLogosCarousel from '../src/components/Commerce';
+import FeaturesSection from '../src/components/features';
+
 
 // ... (Las interfaces Translation y Props no cambian)
 interface Translation {
@@ -42,9 +45,9 @@ export default function LandingPageClient({ t, lang }: Props) {
     <div className="min-h-screen bg-black text-white font-sans scroll-smooth">
       {/* Header */}
       <header className="w-full px-6 md:px-12 py-6 flex justify-between items-center border-b border-neutral-800 bg-black/60 backdrop-blur-md sticky top-0 z-50">
-        <div className="inline-flex items-center justify-center p-2 bg-blue-500 rounded-full">
+        <div className="inline-flex items-center justify-center p-2 bg-white-500 rounded-full">
           <Image
-            src="/talo2.png"
+            src="/logo.png"
             alt="Descripción de tu logo"
             width={120}
             height={50}
@@ -162,19 +165,10 @@ export default function LandingPageClient({ t, lang }: Props) {
           </div>
         </div>
       </section>
-
+      <EcommerceLogosCarousel />
       {/* Features */}
-      <section id="features" className="px-6 md:px-12 py-24 bg-neutral-950">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">{t.featuresTitle}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {t.features.map((feature, i) => (
-            <div key={i} className="bg-neutral-900 p-6 rounded-xl shadow-md border border-neutral-800">
-              <h3 className="text-xl font-semibold mb-2 text-white">{feature.title}</h3>
-              <p className="text-sm text-neutral-400">{feature.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+
+      <FeaturesSection t={t} />
 
       {/* Slogan */}
       <section id="about" className="px-6 md:px-12 py-24 text-center bg-black">
