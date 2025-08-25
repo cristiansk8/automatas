@@ -204,8 +204,18 @@ export default function LandingPageClient({ t, lang }: Props) {
         <p>© {new Date().getFullYear()} Ta. {t.footer.rights}</p>
         <p className="mt-1">{t.footer.slogan}</p>
         <div className="flex justify-center gap-6 mt-4">
-          <a href="#terms" className="hover:underline">{t.footer.terms}</a>
-          <a href="#privacy" className="hover:underline">{t.footer.privacy}</a>
+          <a
+            href={
+              lang === "es"
+                ? "/es/terminos"
+                : lang === "pt"
+                  ? "/pt/termos"
+                  : `/${lang}/terms`
+            }
+            className="hover:underline"
+          >
+            {t.footer.terms}
+          </a>          <a href="#privacy" className="hover:underline">{t.footer.privacy}</a>
           <a href="#contact" className="hover:underline">{t.footer.contact}</a>
         </div>
       </footer>

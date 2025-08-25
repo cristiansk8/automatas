@@ -1,23 +1,22 @@
-// app/[lang]/layout.tsx
+import React, { ReactNode } from 'react';
 
-import React from 'react';
-
-// Este es un Server Component, no lleva 'use client'
+// Se convierte el componente en asíncrono para manejar los 'params' como una promesa.
 export default async function LangLayout({
   children,
   params,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
+  // Se tipan los params como una promesa.
   params: Promise<{ lang: string }>;
 }) {
-  // Await the params since they are now a Promise
+  // Se usa 'await' para obtener el valor del idioma.
   const { lang } = await params;
-  
+
   return (
-    // La etiqueta <html> y <body> deben estar en el layout raíz,
-    // así que este layout solo devuelve los children.
-    // Si necesitas un div o algo que envuelva solo las páginas de idioma,
-    // puedes ponerlo aquí.
-    <>{children}</>
+    // La etiqueta <html> y <body> van en el layout raíz
+    // que se encuentra en `app/layout.tsx`. Este layout es un wrapper anidado.
+    <>
+      {children}
+    </>
   );
 }
