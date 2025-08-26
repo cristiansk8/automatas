@@ -60,15 +60,26 @@
   "terms": {
     "title": "Términos y Condiciones",
     "intro": "Bienvenido a nuestra plataforma de servicios digitales. Al acceder o utilizar nuestros servicios, aceptas quedar sujeto a los presentes Términos y Condiciones.",
+    "definitions_title": "Definiciones",
     "definitions": "Para efectos de este documento, 'plataforma' se refiere a nuestro sitio web y servicios digitales de automatización de ecommerce; 'usuario' se refiere a toda persona que acceda o utilice nuestros servicios.",
+    "use_title": "Uso de la plataforma",
     "use": "El usuario se compromete a utilizar la plataforma de manera responsable y conforme a la legislación vigente. Está prohibido el uso para actividades ilícitas, difamatorias, fraudulentas o que puedan afectar la seguridad de la plataforma o de terceros.",
+    "responsibility_title": "Responsabilidad del usuario",
     "responsibility": "El usuario es responsable de la información que proporcione en la plataforma. No garantizamos disponibilidad ininterrumpida del servicio y no nos hacemos responsables por fallos derivados de terceros (ej. pasarelas de pago, integraciones externas o servicios de redes sociales).",
+    "payments_title": "Pagos y facturación",
     "payments": "En caso de servicios de pago, el usuario acepta las condiciones de facturación, reembolsos y cancelaciones según lo especificado en cada producto o servicio contratado.",
+    "privacy_title": "Privacidad",
     "privacy": "Respetamos tu privacidad. Consulta nuestra Política de Privacidad para conocer cómo recopilamos, usamos y protegemos tus datos personales.",
+    "intellectual_title": "Propiedad intelectual",
     "intellectual": "Todo el contenido, marcas y materiales de la plataforma son propiedad de la empresa o de sus respectivos titulares. No está permitido copiar, distribuir, modificar o utilizar dicho contenido sin autorización previa.",
+    "liability_title": "Limitación de responsabilidad",
     "liability": "En ningún caso seremos responsables por daños indirectos, incidentales o consecuentes derivados del uso o imposibilidad de uso de nuestros servicios.",
+    "modifications_title": "Modificaciones",
     "modifications": "Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las modificaciones serán publicadas en esta página y entrarán en vigor desde su publicación.",
+    "jurisdiction_title": "Jurisdicción",
     "jurisdiction": "Estos términos se rigen por las leyes de Colombia. Cualquier controversia se resolverá ante los tribunales competentes de la ciudad de Bogotá, salvo disposición legal en contrario.",
+    "contact_title": "Contacto",
     "contact": "Si tienes dudas o comentarios sobre estos Términos y Condiciones, contáctanos en soporte@neuralflow.space"
   }
 }
+

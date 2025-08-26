@@ -60,15 +60,26 @@
   "terms": {
     "title": "Terms and Conditions",
     "intro": "Welcome to our digital services platform. By accessing or using our services, you agree to be bound by these Terms and Conditions.",
+    "definitions_title": "Definitions",
     "definitions": "For the purposes of this document, 'platform' refers to our website and digital ecommerce automation services; 'user' refers to any individual who accesses or uses our services.",
+    "use_title": "Use of the Platform",
     "use": "The user agrees to use the platform responsibly and in compliance with applicable laws. Use for illegal, defamatory, fraudulent, or harmful activities that may affect the security of the platform or third parties is strictly prohibited.",
+    "responsibility_title": "User Responsibility",
     "responsibility": "The user is responsible for the information they provide on the platform. We do not guarantee uninterrupted availability of the service and we are not liable for failures caused by third parties (e.g., payment gateways, external integrations, or social media services).",
+    "payments_title": "Payments and Billing",
     "payments": "In the case of paid services, the user agrees to the billing, refund, and cancellation conditions specified for each product or service contracted.",
+    "privacy_title": "Privacy",
     "privacy": "We respect your privacy. Please refer to our Privacy Policy to learn how we collect, use, and protect your personal data.",
+    "intellectual_title": "Intellectual Property",
     "intellectual": "All content, trademarks, and materials on the platform are the property of the company or their respective owners. Copying, distributing, modifying, or using such content without prior authorization is strictly prohibited.",
+    "liability_title": "Limitation of Liability",
     "liability": "Under no circumstances shall we be held liable for indirect, incidental, or consequential damages arising from the use or inability to use our services.",
+    "modifications_title": "Modifications",
     "modifications": "We reserve the right to modify these Terms and Conditions at any time. Any changes will be published on this page and will take effect upon publication.",
+    "jurisdiction_title": "Jurisdiction",
     "jurisdiction": "These terms are governed by the laws of Colombia. Any disputes shall be resolved before the competent courts of the city of Bogotá, unless otherwise required by law.",
+    "contact_title": "Contact",
     "contact": "If you have any questions or comments regarding these Terms and Conditions, please contact us at soporte@neuralflow.space"
   }
 }
+
