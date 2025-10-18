@@ -1,12 +1,13 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import LeadForm from '../src/components/LeadForm';
 import EcommerceLogosCarousel from '../src/components/Commerce';
 import FeaturesSection from '../src/components/features';
 import ProductCard from '../src/components/ProductCard';
+import Portfolio from '../src/components/Portfolio';
 
 interface Translation {
   nav: { features: string; about: string; contact: string };
@@ -51,14 +52,35 @@ interface Props {
 
 export default function LandingPageClient({ t, lang }: Props) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Se activa el estado 'scrolled' si el scroll es mayor a 50px
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Limpieza del event listener al desmontar el componente para evitar fugas de memoria
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-black text-white font-sans scroll-smooth">
       {/* Header */}
-      <header className="w-full px-6 md:px-12 py-6 flex justify-between items-center border-b border-neutral-800 bg-black/60 backdrop-blur-md sticky top-0 z-50">
-        <div className="inline-flex items-center justify-center p-2 bg-white-500 rounded-full">
-          <Image src="/logo.png" alt="Descripción de tu logo" width={120} height={50} priority />
-        </div>
+      <header className={`w-full px-6 md:px-12 flex justify-between items-center border-b backdrop-blur-md sticky top-0 z-50 transition-all duration-300 ease-in-out ${scrolled ? 'py-3 border-neutral-800 bg-black' : 'py-6 border-transparent bg-transparent'}`}>
+<div className="inline-flex items-center justify-center p-2 bg-white-500 rounded-full transition-all duration-300 ease-in-out">
+  <Image 
+    src="/logo-neural.png" 
+    alt="Descripción de tu logo" 
+    width={scrolled ? 60 : 80} 
+    height={scrolled ? 18 : 24} 
+    priority 
+  />
+</div>
 
         <nav className="hidden md:block">
           <ul className="flex space-x-8 text-neutral-300 font-medium text-xl">
@@ -137,6 +159,7 @@ export default function LandingPageClient({ t, lang }: Props) {
       </motion.section>
 
       <EcommerceLogosCarousel />
+      <Portfolio />
 
       {/* Features */}
       <motion.div
@@ -215,7 +238,8 @@ export default function LandingPageClient({ t, lang }: Props) {
             className="hover:underline"
           >
             {t.footer.terms}
-          </a>          <a href="#privacy" className="hover:underline">{t.footer.privacy}</a>
+          </a>
+          <a href="#privacy" className="hover:underline">{t.footer.privacy}</a>
           <a href="#contact" className="hover:underline">{t.footer.contact}</a>
         </div>
       </footer>
