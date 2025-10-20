@@ -32,6 +32,49 @@
     "description": "Empieza a automatizar con tecnología que entiende, conecta y resuelve.",
     "btnStart": "Quiero empezar"
   },
+  "portfolio": {
+    "header": {
+      "title": "Portafolio de Proyectos",
+      "subtitle": "Soluciones de Chatbots Inteligentes"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Chatbot E-commerce",
+        "description": "Chatbot web inteligente que responde consultas de e-commerce en tiempo real",
+        "client": "Tory Skate Shop",
+        "url": "https://toryskateshop.com/",
+        "image": "/tory-shop.jpg",
+        "technologies": ["Next.js", "IA/ML", "E-commerce"],
+        "iconType": "ShoppingCart"
+      },
+      {
+        "id": 2,
+        "title": "Agente creador de productos",
+        "description": "Bot de Telegram para subir y gestionar productos en WooCommerce automáticamente",
+        "client": "Gestión de Productos",
+        "url": "#telegram-bot",
+        "image": "/create-products.png",
+        "technologies": ["API Telegram", "WooCommerce", "Automatización"],
+        "iconType": "Send"
+      },
+      {
+        "id": 3,
+        "title": "Chatbot WhatsApp",
+        "description": "Integración de chatbot con WhatsApp para atención al cliente automatizada",
+        "client": "Atención al Cliente",
+        "url": "#whatsapp-bot",
+        "image": "/whatsapp.png",
+        "technologies": ["API WhatsApp", "Node.js", "Automatización"],
+        "iconType": "MessageCircle"
+      }
+    ],
+    "cta": {
+      "title": "¿Interesado en trabajar juntos?",
+      "description": "Desarrollo soluciones personalizadas de chatbots para tu negocio",
+      "buttonText": "Contactar"
+    }
+  },
   "footer": {
     "rights": "© Todos los derechos reservados.",
     "slogan": "No seas un bot | Automatiza con inteligencia | Sé más humano",
@@ -82,4 +125,3 @@
     "contact": "Si tienes dudas o comentarios sobre estos Términos y Condiciones, contáctanos en soporte@neuralflow.space"
   }
 }
-

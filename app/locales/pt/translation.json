@@ -19,7 +19,7 @@
     },
     {
       "title": "Integração total",
-      "description": "Conecte com seus canais, CRM e ferramentas favoritas sem complicações."
+      "description": "Conecte seus canais, CRM e ferramentas favoritas sem complicações."
     }
   ],
   "slogan": {
@@ -32,6 +32,49 @@
     "description": "Comece a automatizar com tecnologia que entende, conecta e resolve.",
     "btnStart": "Quero começar"
   },
+  "portfolio": {
+    "header": {
+      "title": "Portfólio de Projetos",
+      "subtitle": "Soluções de Chatbots Inteligentes"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Chatbot E-commerce",
+        "description": "Chatbot web inteligente que responde perguntas de e-commerce em tempo real.",
+        "client": "Tory Skate Shop",
+        "url": "https://toryskateshop.com/",
+        "image": "/tory-shop.jpg",
+        "technologies": ["Next.js", "IA/ML", "E-commerce"],
+        "iconType": "ShoppingCart"
+      },
+      {
+        "id": 2,
+        "title": "Agente de criação de produtos",
+        "description": "Bot do Telegram para cadastrar e gerenciar produtos no WooCommerce automaticamente.",
+        "client": "Gestão de Produtos",
+        "url": "#telegram-bot",
+        "image": "/create-products.png",
+        "technologies": ["API Telegram", "WooCommerce", "Automação"],
+        "iconType": "Send"
+      },
+      {
+        "id": 3,
+        "title": "Chatbot WhatsApp",
+        "description": "Integração de chatbot com WhatsApp para atendimento automatizado ao cliente.",
+        "client": "Atendimento ao Cliente",
+        "url": "#whatsapp-bot",
+        "image": "/whatsapp.png",
+        "technologies": ["API WhatsApp", "Node.js", "Automação"],
+        "iconType": "MessageCircle"
+      }
+    ],
+    "cta": {
+      "title": "Interessado em trabalhar conosco?",
+      "description": "Desenvolvemos soluções personalizadas de chatbots para o seu negócio.",
+      "buttonText": "Entrar em contato"
+    }
+  },
   "footer": {
     "rights": "© Todos os direitos reservados.",
     "slogan": "Não seja um robô | Automatize com inteligência | Seja mais humano",
@@ -41,27 +84,27 @@
   },
   "nav": {
     "features": "Funcionalidades",
-    "about": "Sobre nos",
-    "contact": "Contate-nos"
+    "about": "Sobre nós",
+    "contact": "Contato"
   },
   "productCreator": {
-    "title": "Crie produtos instantaneamente a partir de um prompt e uma imagem",
-    "description": "Economize tempo e potencialize sua loja gerando listagens completas de produtos com apenas um pequeno prompt e uma imagem. Perfeito para escalar seu eCommerce sem esforço.",
-    "btnCreate": "Crear producto",
+    "title": "Crie produtos incríveis com apenas um prompt e uma imagem",
+    "description": "Transforme suas ideias em fichas completas de produtos em segundos. Impulsione seu eCommerce e destaque seus produtos com descrições claras e atrativas.",
+    "btnCreate": "Criar produto",
     "features": {
       "seo": "Melhore seu SEO com descrições otimizadas",
-      "standardize": "Padronize facilmente o catálogo de produtos",
-      "speed": "Crie produtos em segundos, não em horas",
+      "standardize": "Padronize facilmente seu catálogo de produtos",
       "sync": "Sincronize seu catálogo com um clique",
+      "speed": "Crie produtos em segundos, não em horas",
       "consistency": "Mantenha títulos e detalhes consistentes em toda a loja",
-      "scalability": "Escalone seu eCommerce sem esforço extra"
+      "scalability": "Escalone seu eCommerce sem esforço adicional"
     }
   },
   "terms": {
     "title": "Termos e Condições",
     "intro": "Bem-vindo à nossa plataforma de serviços digitais. Ao acessar ou utilizar nossos serviços, você concorda em estar vinculado a estes Termos e Condições.",
     "definitions_title": "Definições",
-    "definitions": "Para os efeitos deste documento, 'plataforma' refere-se ao nosso site e serviços digitais de automação de ecommerce; 'usuário' refere-se a qualquer pessoa que acesse ou utilize nossos serviços.",
+    "definitions": "Para os efeitos deste documento, 'plataforma' refere-se ao nosso site e serviços digitais de automação de e-commerce; 'usuário' refere-se a qualquer pessoa que acesse ou utilize nossos serviços.",
     "use_title": "Uso da Plataforma",
     "use": "O usuário compromete-se a utilizar a plataforma de forma responsável e em conformidade com a legislação aplicável. É estritamente proibido o uso para atividades ilegais, difamatórias, fraudulentas ou que possam afetar a segurança da plataforma ou de terceiros.",
     "responsibility_title": "Responsabilidade do Usuário",
@@ -82,4 +125,3 @@
     "contact": "Se você tiver dúvidas ou comentários sobre estes Termos e Condições, entre em contato conosco em suporte@neuralflow.space"
   }
 }
-

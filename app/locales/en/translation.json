@@ -32,6 +32,49 @@
     "description": "Start automating with technology that understands, connects, and solves.",
     "btnStart": "Get started"
   },
+  "portfolio": {
+    "header": {
+      "title": "Project Portfolio",
+      "subtitle": "Intelligent Chatbot Solutions"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "E-commerce Chatbot",
+        "description": "Intelligent web chatbot that responds to e-commerce queries in real-time",
+        "client": "Tory Skate Shop",
+        "url": "https://toryskateshop.com/",
+        "image": "/tory-shop.jpg",
+        "technologies": ["Next.js", "AI/ML", "E-commerce"],
+        "iconType": "ShoppingCart"
+      },
+      {
+        "id": 2,
+        "title": "Product Creation Agent",
+        "description": "Telegram bot to upload and manage WooCommerce products automatically",
+        "client": "Product Management",
+        "url": "#telegram-bot",
+        "image": "/create-products.png",
+        "technologies": ["Telegram API", "WooCommerce", "Automation"],
+        "iconType": "Send"
+      },
+      {
+        "id": 3,
+        "title": "WhatsApp Chatbot",
+        "description": "WhatsApp chatbot integration for automated customer service",
+        "client": "Customer Support",
+        "url": "#whatsapp-bot",
+        "image": "/whatsapp.png",
+        "technologies": ["WhatsApp API", "Node.js", "Automation"],
+        "iconType": "MessageCircle"
+      }
+    ],
+    "cta": {
+      "title": "Interested in working together?",
+      "description": "I develop custom chatbot solutions for your business",
+      "buttonText": "Contact"
+    }
+  },
   "footer": {
     "rights": "© All rights reserved.",
     "slogan": "Don't be a bot | Automate smart | Be more human",
@@ -47,7 +90,7 @@
   "productCreator": {
     "title": "Create products instantly from a prompt and an image",
     "description": "Save time and boost your store by generating complete product listings with just a short prompt and an image. Perfect for scaling your eCommerce effortlessly.",
-    "btnCreate": "Crear producto",
+    "btnCreate": "Create product",
     "features": {
       "seo": "Improve your SEO with optimized descriptions",
       "standardize": "Standardize your product catalog easily",
@@ -82,4 +125,3 @@
     "contact": "If you have any questions or comments regarding these Terms and Conditions, please contact us at soporte@neuralflow.space"
   }
 }
-
