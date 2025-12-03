@@ -123,5 +123,33 @@
     "jurisdiction": "These terms are governed by the laws of Colombia. Any disputes shall be resolved before the competent courts of the city of Bogotá, unless otherwise required by law.",
     "contact_title": "Contact",
     "contact": "If you have any questions or comments regarding these Terms and Conditions, please contact us at soporte@neuralflow.space"
+  },
+  "policy": {
+    "title": "Privacy Policy",
+    "intro": "At NeuralFlow, we are committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy describes how we collect, use, share, and protect your information when you use our automation and intelligent chatbot services.",
+    "effective_date": "Effective date: December 2025",
+    "collection_title": "1. Information We Collect",
+    "collection": "We collect different types of information to provide and improve our services:",
+    "collection_items": "• Contact information: name, email address, phone number\n• Business information: company name, website, industry sector\n• Usage data: information about how you interact with our services\n• Technical information: IP address, browser type, operating system\n• Campaign data: performance metrics for chatbots and automations",
+    "use_title": "2. How We Use Your Information",
+    "use": "We use the collected information to:",
+    "use_items": "• Provide, maintain, and improve our services\n• Personalize your experience with our chatbots\n• Communicate with you about updates and new features\n• Analyze performance and optimize our automations\n• Comply with legal obligations and prevent fraud\n• Process technical support requests",
+    "sharing_title": "3. Sharing Your Information",
+    "sharing": "We do not sell your personal information. We may share your data only with: service providers who help us operate our business (hosting, analytics, support), third-party platforms you integrate with our services (WhatsApp, Telegram, WooCommerce), and when required by law or to protect our legal rights.",
+    "cookies_title": "4. Cookies and Similar Technologies",
+    "cookies": "We use cookies and similar technologies to improve your experience, analyze site usage, and personalize content. You can control cookies through your browser settings. Please note that disabling cookies may affect the functionality of some services.",
+    "security_title": "5. Data Security",
+    "security": "We implement technical and organizational security measures to protect your information against unauthorized access, loss, or alteration. This includes data encryption, access controls, and regular security audits. However, no system is completely secure, and we cannot guarantee absolute data security.",
+    "rights_title": "6. Your Rights",
+    "rights": "Depending on your location, you may have the following rights regarding your personal data:",
+    "rights_items": "• Access your personal information\n• Correct inaccurate or incomplete data\n• Request deletion of your data\n• Object to the processing of your data\n• Request data portability\n• Withdraw your consent at any time",
+    "thirdparty_title": "7. Third-Party Services",
+    "thirdparty": "Our services may integrate with third-party platforms (social networks, ecommerce platforms, messaging services). These platforms have their own privacy policies, and we are not responsible for their practices. We recommend reviewing the privacy policies of these services.",
+    "children_title": "8. Children's Privacy",
+    "children": "Our services are not directed at individuals under 18 years of age. We do not intentionally collect personal information from minors. If we discover that we have collected data from a minor, we will delete that information immediately.",
+    "changes_title": "9. Changes to This Policy",
+    "changes": "We may update this Privacy Policy periodically to reflect changes in our practices or due to legal requirements. We will notify you of significant changes by posting the new policy on our website and updating the effective date.",
+    "contact_title": "10. Contact",
+    "contact": "If you have questions, concerns, or requests related to this Privacy Policy or the handling of your personal data, contact us at: soporte@neuralflow.space"
   }
 }

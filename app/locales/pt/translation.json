@@ -123,5 +123,33 @@
     "jurisdiction": "Estes termos são regidos pelas leis da Colômbia. Qualquer controvérsia será resolvida nos tribunais competentes da cidade de Bogotá, salvo disposição legal em contrário.",
     "contact_title": "Contato",
     "contact": "Se você tiver dúvidas ou comentários sobre estes Termos e Condições, entre em contato conosco em suporte@neuralflow.space"
+  },
+  "policy": {
+    "title": "Política de Privacidade",
+    "intro": "Na NeuralFlow, estamos comprometidos em proteger sua privacidade e garantir a segurança de seus dados pessoais. Esta Política de Privacidade descreve como coletamos, usamos, compartilhamos e protegemos suas informações quando você utiliza nossos serviços de automação e chatbots inteligentes.",
+    "effective_date": "Data de vigência: Dezembro de 2025",
+    "collection_title": "1. Informações que Coletamos",
+    "collection": "Coletamos diferentes tipos de informações para fornecer e melhorar nossos serviços:",
+    "collection_items": "• Informações de contato: nome, e-mail, número de telefone\n• Informações empresariais: nome da empresa, site, setor\n• Dados de uso: informações sobre como você interage com nossos serviços\n• Informações técnicas: endereço IP, tipo de navegador, sistema operacional\n• Dados de campanhas: métricas de desempenho de chatbots e automações",
+    "use_title": "2. Como Usamos suas Informações",
+    "use": "Utilizamos as informações coletadas para:",
+    "use_items": "• Fornecer, manter e melhorar nossos serviços\n• Personalizar sua experiência com nossos chatbots\n• Comunicar sobre atualizações e novos recursos\n• Analisar o desempenho e otimizar nossas automações\n• Cumprir obrigações legais e prevenir fraudes\n• Processar solicitações de suporte técnico",
+    "sharing_title": "3. Compartilhamento de suas Informações",
+    "sharing": "Não vendemos suas informações pessoais. Podemos compartilhar seus dados apenas com: provedores de serviços que nos ajudam a operar nosso negócio (hospedagem, análise, suporte), plataformas de terceiros que você integra com nossos serviços (WhatsApp, Telegram, WooCommerce), e quando exigido por lei ou para proteger nossos direitos legais.",
+    "cookies_title": "4. Cookies e Tecnologias Similares",
+    "cookies": "Utilizamos cookies e tecnologias similares para melhorar sua experiência, analisar o uso do site e personalizar conteúdo. Você pode controlar os cookies através das configurações do seu navegador. Note que desabilitar os cookies pode afetar a funcionalidade de alguns serviços.",
+    "security_title": "5. Segurança dos Dados",
+    "security": "Implementamos medidas de segurança técnicas e organizacionais para proteger suas informações contra acesso não autorizado, perda ou alteração. Isso inclui criptografia de dados, controles de acesso e auditorias de segurança regulares. No entanto, nenhum sistema é completamente seguro e não podemos garantir a segurança absoluta de seus dados.",
+    "rights_title": "6. Seus Direitos",
+    "rights": "Dependendo da sua localização, você pode ter os seguintes direitos sobre seus dados pessoais:",
+    "rights_items": "• Acessar suas informações pessoais\n• Corrigir dados imprecisos ou incompletos\n• Solicitar a exclusão de seus dados\n• Opor-se ao processamento de seus dados\n• Solicitar a portabilidade de seus dados\n• Retirar seu consentimento a qualquer momento",
+    "thirdparty_title": "7. Serviços de Terceiros",
+    "thirdparty": "Nossos serviços podem se integrar com plataformas de terceiros (redes sociais, plataformas de e-commerce, serviços de mensagens). Essas plataformas têm suas próprias políticas de privacidade e não somos responsáveis por suas práticas. Recomendamos revisar as políticas de privacidade desses serviços.",
+    "children_title": "8. Privacidade de Menores",
+    "children": "Nossos serviços não são direcionados a menores de 18 anos. Não coletamos intencionalmente informações pessoais de menores. Se descobrirmos que coletamos dados de um menor, excluiremos essas informações imediatamente.",
+    "changes_title": "9. Alterações nesta Política",
+    "changes": "Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças em nossas práticas ou por requisitos legais. Notificaremos sobre alterações significativas publicando a nova política em nosso site e atualizando a data de vigência.",
+    "contact_title": "10. Contato",
+    "contact": "Se você tiver dúvidas, preocupações ou solicitações relacionadas a esta Política de Privacidade ou ao tratamento de seus dados pessoais, entre em contato conosco em: suporte@neuralflow.space"
   }
 }
